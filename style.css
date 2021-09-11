@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root {
+    --main-color: #60A5FA;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--main-color);
+    font-family: 'Pacifico', cursive;
+    width: 70vw;
+  }
+  
+  .container {
+    margin-left: 25rem;
+  }
+  
+  h1 {
+    margin-left: 2.5rem;
+  }
+  
+  label[for="dob"],[for="num"]{
+    margin-left: 9rem;
+    font-size: 1.3rem;
+  }
+  
+  #dob{
+    padding: 0.5rem;
+  }
+  
+  #num{
+    padding: 0.5rem;
+    width: 28%;
+  }
+
+  #dob , #num {
+      margin-left: 5rem;
+      width: 50%;
+  }
+
+  #btn {
+      margin-left: 10rem;
+      padding: 0.5rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      border-radius: 0.5rem;
+      background-color: #1D4ED8;
+      color: white;
+      border: 3px solid black;
+      font-family: 'Pacifico', cursive;
+  }
+
+  .output {
+    margin-left: 5rem;
+      font-size: 1.4rem;
+  }
+
+  #btn:hover{
+      color: black;
+      background-color: white;
+  }
+
+  .output:hover{
+      color: white;
+  }
